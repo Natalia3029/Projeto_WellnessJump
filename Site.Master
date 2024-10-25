@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="JumpAcademia.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/Projeto.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <!---------- BIBLIOTECAS PARA BANNER ROTATIVO -----> 
+    <link href="javascript/flexslider.css" rel="stylesheet" />
+    <script src="javascript/jquery-1.7.2.min.js"></script>
+    <script src="javascript/flexslider.min.js"></script>
+</head>
+
+
+
+    <!-- CONTEÚDO -->
+    <div class="conteudo content-wrap">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    <!-- RODAPÉ -->
+    <div class="rodape">
+    </div>
+</body>
+</html>
